@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Footer.css';
 
 class Footer extends Component {
 
@@ -8,16 +9,16 @@ class Footer extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col l6 s12">
-                            <h5 className="white-text">Footer Content</h5>
-                            <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                            <h5 className="white-text">Jarboe Studios</h5>
+                            <p className="grey-text text-lighten-4">Never stop</p>
                         </div>
                         <div className="col l4 offset-l2 s12">
-                            <h5 className="white-text">Links</h5>
+                            <h5 className="white-text">Site Map</h5>
                             <ul>
-                                <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                                <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                                <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                                <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                                <li><a className="grey-text text-lighten-3" href="/">Home</a></li>
+                                <li><a className="grey-text text-lighten-3" href="/projects">Projects</a></li>
+                                <li><a className="grey-text text-lighten-3" href="/about">About</a></li>
+                                <li><a className="grey-text text-lighten-3" href="/contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -25,7 +26,9 @@ class Footer extends Component {
                 <div className="footer-copyright">
                     <div className="container">
                         © 2018 Copyright Text
-                        <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+                        <a href="https://twitter.com/jarboestudios?lang=en" class="fa fa-twitter grey-text text-lighten-4 right"></a>
+                         
+                        <a href="https://www.instagram.com/jarboestudios/" class="fa fa-instagram grey-text text-lighten-4 right"></a>
                     </div>
                 </div>
             </footer>
