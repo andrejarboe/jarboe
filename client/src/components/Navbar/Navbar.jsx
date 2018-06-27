@@ -15,7 +15,7 @@ class NavBar extends Component {
         <nav className="red">
           <div className="container">
             <div className="nav-wrapper">
-              <a href="#" className="brand-logo">Jarboe Studios</a>
+              <a href="/" className="brand-logo">Jarboe Studios</a>
               <a href="#" data-target="mobile-nav" className="sidenav-trigger">
                 <i className="material-icons">menu</i>
               </a>
