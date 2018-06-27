@@ -21,18 +21,18 @@ class NavBar extends Component {
               </a>
               <ul className="right hide-on-med-and-down">
                 <li><a href="/">Home</a></li>
-                <li><a href="#projects">Projects</a></li>                
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>                
+                <li><a href="/projects">Projects</a></li>                
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>                
               </ul>
             </div>
           </div>
         </nav>
         <ul className="sidenav" id="mobile-nav">
           <li><a href="/">Home</a></li>
-          <li><a href="#projects">Projects</a></li>                
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>                
+          <li><a href="/projects">Projects</a></li>                
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>                
         </ul>
       </div>
     );
