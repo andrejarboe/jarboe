@@ -4,6 +4,8 @@ import './App.css';
 
 // PAGES
 import Home from "./pages/Home";
+import NoMatch from "./pages/NoMatch";
+
 
 // COMMPONENTS
 import Navbar from './components/Navbar';
@@ -21,7 +23,7 @@ class App extends Component {
                         <Router>
                             <Switch>
                                 <Route exact path="/" component={Home} />
-                                {/* <Route component={NoMatch} /> */}
+                                <Route component={NoMatch} />
                             </Switch>
                         </Router>
                     </div>
