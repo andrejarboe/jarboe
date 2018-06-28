@@ -11,6 +11,22 @@ class Home extends Component {
             <h1>Web and Mobile App Development</h1>
           </div>
         </div>
+
+        {/* Services */}
+        <div id="services" className="row">
+          <div className="col s12 m4">
+            <h2>Web Design</h2>
+          </div>
+          <div className="col s12 m4">
+            <h2>Mobile Apps</h2>
+          </div>
+          <div className="col s12 m4">
+            <h2>Social Media</h2>
+          </div>
+
+          
+        </div>
+
       </div>
     );
   }
