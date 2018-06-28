@@ -5,9 +5,9 @@
   background: url(../../images/showcase.jpg) no-repeat 0 -400px;
   text-align: center;
   color: #ffffff;
-  /* background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  /* filter: grayscale(100%); */
+  /* background-size: cover; */
+  /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 #showcase h1{

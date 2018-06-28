@@ -29,7 +29,12 @@ class Home extends Component {
           </div>
         </section>
 
-        {/*  */}
+        {/* Team */}
+        <section id="team" className="row">
+          <div className="col s12">
+            <h2>Meet The Team</h2>
+          </div>
+        </section>
 
         {/* Projects */}
         <section id="projects" className="row">
@@ -45,7 +50,7 @@ class Home extends Component {
               <h3>Project 3</h3>
             </div>
             <div className="col s12 m6 l3">
-              <h3>project 4</h3>
+              <h3>Project 4</h3>
             </div>
           </div>
         </section>
