@@ -6,14 +6,18 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div id="showcase">
+        <section id="showcase">
           <div className="container">
-            <h1>Web and Mobile App Development</h1>
+            <h1>Web, Mobile, and Social Media Development</h1>
           </div>
-        </div>
+        </section>
 
         {/* Services */}
-        <div id="services" className="row">
+        <section id="services" className="row">
+          <div className="col s12">
+            <h2>Services</h2>
+            <p>How can we make you happy?</p>
+          </div>
           <div className="col s12 m4">
             <h2>Web Design</h2>
           </div>
@@ -23,9 +27,29 @@ class Home extends Component {
           <div className="col s12 m4">
             <h2>Social Media</h2>
           </div>
+        </section>
 
-          
-        </div>
+        {/*  */}
+
+        {/* Projects */}
+        <section id="projects" className="row">
+          <div className="col s12">
+            <h2>Some Of Our Projects</h2>
+            <div className="col s12 m6 l3">
+              <h3>Project 1</h3>
+            </div>
+            <div className="col s12 m6 l3">
+              <h3>Project 2</h3>
+            </div>
+            <div className="col s12 m6 l3">
+              <h3>Project 3</h3>
+            </div>
+            <div className="col s12 m6 l3">
+              <h3>project 4</h3>
+            </div>
+          </div>
+        </section>
+       
 
       </div>
     );
