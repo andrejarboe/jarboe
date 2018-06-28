@@ -2,8 +2,10 @@
 
 #showcase{
   min-height: 400px;
-  background: url(../../images/lauren-mancke-60627-unsplash.jpg) no-repeat ;
-  background-size: cover;
+  background: url(../../images/showcase.jpg) no-repeat 0 -400px;
+  text-align: center;
+  color: white;
+  /* background-size: cover;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
