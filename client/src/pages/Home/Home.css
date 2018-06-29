@@ -1,9 +1,16 @@
 /* import Desk from '../../images/oli-dale-139169-unsplash2.jpg'; */
+#home{
+  text-align: center;
+}
 
+#home h2{
+  font-size: 30px;
+}
+
+/* showcase */
 #showcase{
   min-height: 400px;
   background: url(../../images/showcase.jpg) no-repeat 0 -400px;
-  text-align: center;
   color: #ffffff;
   /* background-size: cover; */
   /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
@@ -19,4 +26,9 @@
 
 #showcase p{
   font-size: 20px;
+}
+
+/* services */
+#services i{
+ font-size: 115px
 }
