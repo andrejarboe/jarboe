@@ -12,7 +12,7 @@ class Home extends Component {
         </section>
 
         {/* Services */}
-        <section id="services" className="row">
+        <section id="services" className="row  red">
           <div className="container">
             <div className="col s12">
               <h2>Services</h2>

@@ -29,6 +29,9 @@
 }
 
 /* services */
-#services i{
- font-size: 115px
+#services{
+ color: #ffffff;
 }
+#services i{
+  font-size: 115px;
+ }
