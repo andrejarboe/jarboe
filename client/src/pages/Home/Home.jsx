@@ -4,7 +4,7 @@ import './Home.css';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <section id="home">
         <section id="showcase">
           <div className="container">
             <h1>Web, Mobile, and Social Media Development</h1>
@@ -12,19 +12,22 @@ class Home extends Component {
         </section>
 
         {/* Services */}
-        <section id="services" className="row">
+        <section id="services" className="row  red">
           <div className="container">
             <div className="col s12">
               <h2>Services</h2>
               <p>How can we make you happy?</p>
             </div>
             <div className="col s12 m4">
+              <i className="material-icons">desktop_mac</i>
               <h2>Web Design</h2>
             </div>
             <div className="col s12 m4">
+              <i className="material-icons">phone_iphone</i>
               <h2>Mobile Apps</h2>
             </div>
             <div className="col s12 m4">
+              <i className="material-icons">assessment</i>
               <h2>Social Media</h2>
             </div>
           </div>
@@ -76,7 +79,7 @@ class Home extends Component {
           </div>
         </section>
 
-      </div>
+      </section>
     );
   }
 }
