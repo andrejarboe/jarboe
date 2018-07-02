@@ -51,7 +51,10 @@ class Home extends Component {
             <div className="col s12">
               <h2>Some Of Our Projects</h2>
               <div className="col s12 m6 l3">
-                <h3>Project 1</h3>
+                <div className="car large">
+                  <img src="https://unsplash.com/photos/4Hg8LH9Hoxc" alt=""/>
+                  <h3>Project 1</h3>
+                </div>
               </div>
               <div className="col s12 m6 l3">
                 <h3>Project 2</h3>
