@@ -51,19 +51,68 @@ class Home extends Component {
             <div className="col s12">
               <h2>Some Of Our Projects</h2>
               <div className="col s12 m6 l3">
-                <div className="car large">
-                  <img src="https://unsplash.com/photos/4Hg8LH9Hoxc" alt=""/>
-                  <h3>Project 1</h3>
+                <div className="card">
+                  <div className="card-image">
+                    <img src="https://picsum.photos/g/300/200" alt="" />
+                    <span className="card-title">Card Title</span>
+                  </div>
+                  <div className="card-content">
+                    <p>
+                      I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.
+                    </p>
+                  </div>
+                  <div className="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
                 </div>
               </div>
               <div className="col s12 m6 l3">
-                <h3>Project 2</h3>
+              <div className="card">
+                  <div className="card-image">
+                    <img src="https://picsum.photos/g/300/200" alt="" />
+                    <span className="card-title">Card Title</span>
+                  </div>
+                  <div className="card-content">
+                    <p>
+                      I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.
+                    </p>
+                  </div>
+                  <div className="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
               </div>
               <div className="col s12 m6 l3">
-                <h3>Project 3</h3>
+              <div className="card">
+                  <div className="card-image">
+                    <img src="https://picsum.photos/g/300/200" alt="" />
+                    <span className="card-title">Card Title</span>
+                  </div>
+                  <div className="card-content">
+                    <p>
+                      I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.
+                    </p>
+                  </div>
+                  <div className="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
               </div>
               <div className="col s12 m6 l3">
-                <h3>Project 4</h3>
+              <div className="card">
+                  <div className="card-image">
+                    <img src="https://picsum.photos/g/300/200" alt="" />
+                    <span className="card-title">Card Title</span>
+                  </div>
+                  <div className="card-content">
+                    <p>
+                      I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.
+                    </p>
+                  </div>
+                  <div className="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
