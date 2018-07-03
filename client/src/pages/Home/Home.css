@@ -7,6 +7,11 @@
   font-size: 30px;
 }
 
+.border{
+  border-bottom: 1px solid #e53935;
+  padding-top: 70px;
+}
+
 /* showcase */
 #showcase{
   min-height: 600px;
@@ -35,6 +40,15 @@
 #services i{
   font-size: 115px;
  }
+
+ #services img{
+   width: 100%;
+ }
+
+
+ #services a{
+  color: #fff;
+}
 
  /* media */
  
