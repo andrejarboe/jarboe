@@ -35,3 +35,18 @@
 #services i{
   font-size: 115px;
  }
+
+ /* media */
+ 
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 757px) {
+  #showcase{
+    background-position: 50% 50%; 
+  }
+  #showcase h1{
+    padding-top: 303px;
+    font-size: 55px;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+}
