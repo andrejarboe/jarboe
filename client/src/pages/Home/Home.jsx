@@ -15,7 +15,9 @@ class Home extends Component {
           <div className="container">
             {/* <Desk /> */}
             <h1>Web Design & Development </h1>
-            <p>Costume solutions for companies and individuals</p>
+            <p>
+              Custom solutions for companies and individuals
+            </p>
 
             <a href="https://twitter.com/jarboestudios?lang=en" className="fa fa-twitter grey-text text-lighten-4" target="_blank"></a>
 
