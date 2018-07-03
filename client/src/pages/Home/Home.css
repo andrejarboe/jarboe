@@ -12,6 +12,10 @@
   padding-top: 70px;
 }
 
+span{
+  color: #e53935;
+}
+
 
 
 /* .red .darken-2 {
@@ -19,8 +23,7 @@
 } */
 .button:active,
 .button:hover{
- background-color: #212121;
- color: #fff;
+ background-color: transparent;
 }
 
 .button{
