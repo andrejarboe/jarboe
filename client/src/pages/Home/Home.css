@@ -41,10 +41,11 @@
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 757px) {
   #showcase{
-    background-position: 50% 50%; 
+    background-position: 100% 50%; 
+    min-height: 400px;
   }
   #showcase h1{
-    padding-top: 303px;
+    padding-top: 78px;
     font-size: 55px;
     padding-bottom: 10px;
     margin: 0;
