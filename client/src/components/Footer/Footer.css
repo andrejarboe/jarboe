@@ -1,3 +1,11 @@
+footer{
+  border-top: 2px solid #e53935;
+}
+
+footer span{
+  color: #e53935;
+}
+
 /* Style all font awesome icons */
 .fa {
   padding-right: 20px;

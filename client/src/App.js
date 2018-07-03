@@ -5,7 +5,7 @@ import './App.css';
 // PAGES
 import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch";
-
+import Contact from "./pages/Contact";
 
 // COMMPONENTS
 import Navbar from './components/Navbar';
@@ -23,6 +23,7 @@ class App extends Component {
                         <Router>
                             <Switch>
                                 <Route exact path="/" component={Home} />
+                                <Route exact path="/contact" component={Contact} />
                                 <Route component={NoMatch} />
                             </Switch>
                         </Router>
