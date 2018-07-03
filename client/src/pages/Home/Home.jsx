@@ -10,9 +10,13 @@ class Home extends Component {
       <section id="home">
         <section id="showcase">
           <div className="container">
-          {/* <Desk /> */}
-           <h1>Web Design & Development </h1>
-           <p>Costume solutions for companies and individuals</p>
+            {/* <Desk /> */}
+            <h1>Web Design & Development </h1>
+            <p>Costume solutions for companies and individuals</p>
+
+            <a href="https://twitter.com/jarboestudios?lang=en" className="fa fa-twitter grey-text text-lighten-4" target="_blank"></a>
+
+            <a href="https://www.instagram.com/jarboestudios/" className="fa fa-instagram grey-text text-lighten-4" target="_blank"></a>
           </div>
         </section>
 
