@@ -25,6 +25,23 @@ class Home extends Component {
           </div>
         </section>
 
+        {/* welcome */}
+        <section id="welcome" className="row">
+        <div className="container">
+          <div className="col s12">
+            <h2>Welcome to Jarboe Studios</h2>
+          </div>
+        </div>
+
+          <div className="border"></div>
+
+        <div className="container">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, voluptates neque sit ea quo, atque beatae numquam deserunt unde nisi quod nihil voluptatem consequatur, aspernatur facilis! Ipsa temporibus consequatur quos?
+          </p>
+        </div>
+        </section>
+
         {/* Services */}
         <section id="services" className="row  grey darken-4">
           <div className="container">
@@ -151,7 +168,7 @@ class Home extends Component {
               <h2>Contact</h2>
               <p>Don't be shy, get in touch with us</p>
 
-              <a href="/contact" class="waves-effect waves-light btn-large">Contact</a>
+              <a href="/contact" class="button waves-effect waves-light btn-large">Contact</a>
             </div>
           </div>
         </section>

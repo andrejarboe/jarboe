@@ -12,6 +12,24 @@
   padding-top: 70px;
 }
 
+
+
+/* .red .darken-2 {
+    background-color: #e53935 !important;
+} */
+.button:active,
+.button:hover{
+ background-color: #212121;
+ color: #fff;
+}
+
+.button{
+  background-color: transparent;
+  border: 1px solid #e53935;
+  color: #e53935;
+}
+
+
 /* showcase */
 #showcase{
   min-height: 600px;
