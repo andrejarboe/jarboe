@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import './Home.css';
 
+// COMMPONENTS
+// import Desk from '../../components/Desk';
+
 class Home extends Component {
   render() {
     return (
       <section id="home">
         <section id="showcase">
           <div className="container">
-            <h1>Web, Mobile, and Social Media Development</h1>
+          {/* <Desk /> */}
+           <h1>Web Design & Development </h1>
+           <p>Costume solutions for companies and individuals</p>
           </div>
         </section>
 
@@ -67,7 +72,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col s12 m6 l3">
-              <div className="card">
+                <div className="card">
                   <div className="card-image">
                     <img src="https://picsum.photos/g/300/200" alt="" />
                     <span className="card-title">Card Title</span>
@@ -83,7 +88,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col s12 m6 l3">
-              <div className="card">
+                <div className="card">
                   <div className="card-image">
                     <img src="https://picsum.photos/g/300/200" alt="" />
                     <span className="card-title">Card Title</span>
@@ -99,7 +104,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col s12 m6 l3">
-              <div className="card">
+                <div className="card">
                   <div className="card-image">
                     <img src="https://picsum.photos/g/300/200" alt="" />
                     <span className="card-title">Card Title</span>
