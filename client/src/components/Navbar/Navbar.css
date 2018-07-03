@@ -10,7 +10,6 @@ nav span{
   color: #e53935;
 }
 
-
 @media screen and (max-width: 597px) {
   nav .brand-logo{
     font-size: 5.5vw;

@@ -37,8 +37,8 @@ class Home extends Component {
 
           <div className="container">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, voluptates neque sit ea quo, atque beatae numquam deserunt unde nisi quod nihil voluptatem consequatur, aspernatur facilis! Ipsa temporibus consequatur quos?
-          </p>
+            At Jarboe Studios, we produce stunning web designs for companies and individuals that are easily maintained and updated by the user. Based in Atlanta GA, we pride ourselves in working with actors and creative studios in order to produce top quality websites that grab the viewers attention. 
+            </p>
             <a href="/about" class="button waves-effect waves-light btn-large">Read More</a>
           </div>
         </section>
