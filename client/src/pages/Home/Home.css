@@ -71,8 +71,23 @@ span{
   color: #fff;
 }
 
+/* projects */
+#projects .col{
+ padding: 0;
+ margin: 0;
+ line-height: 0;
+}
+
+#projects img{
+  width: 100%;
+}
+
+/* contact */
+#contact{
+  /* background-color: #212121; */
+}
+
  /* media */
- 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 757px) {
   #showcase{
