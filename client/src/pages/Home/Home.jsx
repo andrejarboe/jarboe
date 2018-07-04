@@ -37,7 +37,7 @@ class Home extends Component {
 
           <div className="container">
             <p>
-            At Jarboe Studios, we produce stunning web designs for companies and individuals that are easily maintained and updated by the user. Based in Atlanta GA, we pride ourselves in working with actors and creative studios in order to produce top quality websites that grab the viewers attention. 
+              At Jarboe Studios, we produce stunning web designs for companies and individuals that are easily maintained and updated by the user. Based in Atlanta GA, we pride ourselves in working with actors and creative studios in order to produce top quality websites that grab the viewers attention.
             </p>
             <a href="/about" class="button waves-effect waves-light btn-large">Read More</a>
           </div>
@@ -90,74 +90,24 @@ class Home extends Component {
         {/* Projects */}
         <section id="projects" className="row">
           <div className="container">
-
             <div className="col s12">
-              <h2>Some Of Our Projects</h2>
-              <div className="col s12 m6 l3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src="https://picsum.photos/g/300/200" alt="" />
-                    <span className="card-title">Card Title</span>
-                  </div>
-                  <div className="card-content">
-                    <p>
-                      I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.
-                    </p>
-                  </div>
-                  <div className="card-action">
-                    <a href="#">This is a link</a>
-                  </div>
-                </div>
-              </div>
-              <div className="col s12 m6 l3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src="https://picsum.photos/g/300/200" alt="" />
-                    <span className="card-title">Card Title</span>
-                  </div>
-                  <div className="card-content">
-                    <p>
-                      I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.
-                    </p>
-                  </div>
-                  <div className="card-action">
-                    <a href="#">This is a link</a>
-                  </div>
-                </div>
-              </div>
-              <div className="col s12 m6 l3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src="https://picsum.photos/g/300/200" alt="" />
-                    <span className="card-title">Card Title</span>
-                  </div>
-                  <div className="card-content">
-                    <p>
-                      I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.
-                    </p>
-                  </div>
-                  <div className="card-action">
-                    <a href="#">This is a link</a>
-                  </div>
-                </div>
-              </div>
-              <div className="col s12 m6 l3">
-                <div className="card">
-                  <div className="card-image">
-                    <img src="https://picsum.photos/g/300/200" alt="" />
-                    <span className="card-title">Card Title</span>
-                  </div>
-                  <div className="card-content">
-                    <p>
-                      I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.
-                    </p>
-                  </div>
-                  <div className="card-action">
-                    <a href="#">This is a link</a>
-                  </div>
-                </div>
-              </div>
+              <h2>Our Work</h2>
             </div>
+          </div>
+
+          <div className="border"></div>
+
+          <div className="col s12 m6 l3">
+            <img src="https://picsum.photos/200/?random" className="img-responsive" alt="" />
+          </div>
+          <div className="col s12 m6 l3">
+            <img src="https://picsum.photos/200/?random" className="img-responsive" alt="" />
+          </div>
+          <div className="col s12 m6 l3">
+            <img src="https://picsum.photos/200/?random" className="img-responsive" alt="" />
+          </div>
+          <div className="col s12 m6 l3">
+            <img src="https://picsum.photos/200/?random" className="img-responsive" alt="" />
           </div>
 
         </section>
@@ -168,7 +118,6 @@ class Home extends Component {
             <div className="col s12">
               <h2>Contact</h2>
               <p>Don't be shy, get in touch with us</p>
-
               <a href="/contact" class="button waves-effect waves-light btn-large">Contact</a>
             </div>
           </div>
