@@ -98,16 +98,16 @@ class Home extends Component {
           <div className="border"></div>
 
           <div className="col s12 m6 l3">
-            <img src="https://picsum.photos/200/?random" className="img-responsive" alt="" />
+            <img src="https://picsum.photos/200/?image=20" className="img-responsive" alt="" />
           </div>
           <div className="col s12 m6 l3">
-            <img src="https://picsum.photos/200/?random" className="img-responsive" alt="" />
+            <img src="https://picsum.photos/200/?image=60" className="img-responsive" alt="" />
           </div>
           <div className="col s12 m6 l3">
-            <img src="https://picsum.photos/200/?random" className="img-responsive" alt="" />
+            <img src="https://picsum.photos/200/?image=943" className="img-responsive" alt="" />
           </div>
           <div className="col s12 m6 l3">
-            <img src="https://picsum.photos/200/?random" className="img-responsive" alt="" />
+            <img src="https://picsum.photos/200/?image=287" className="img-responsive" alt="" />
           </div>
 
         </section>
